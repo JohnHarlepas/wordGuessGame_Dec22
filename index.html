@@ -1,0 +1,75 @@
+<doctype <!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Word Guess</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+            <div class="container">
+
+                <div class="navBarArea">
+                    <a class="navbarName" href="https://www.history.com/topics/us-presidents/us-presidential-election-2016" id="homeName">2016 Presidential Election</a>
+                </div>
+            </div>
+
+        </nav>
+
+        <main class="container">
+            <section class="row">
+                <div class="col-md-11">
+                    <form class="contentSection">
+                        <h1 class="contentTitle">Guess the Primary Candidate's Name</h1>
+
+                        <div id="band-Div"><img src="assets/images/openingPic2.png" alt="President Washington"></div>
+
+                        <hr />
+                        <h6>Start Game By Pressing Any Key</h6>
+                        <div class="form-group">
+                            <label for="name" class="col-sm-12 control-label"> Wins</label>
+                            <div id="wins"></div>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-sm-6 control-label">Current Word</label>
+                            
+                            <div id="wordNow"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-6 control-label" for="msg">Chances Left</label>
+                            <div id="guessLeft"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-6 control-label" for="msg">Guessed Letters</label>
+                            <div id="pickLet"></div>
+                        </div>
+                        <button class="sendPress" onclick="window.location.reload()">Reset</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!-- End of container -->
+
+        <!-- Start of footer -->
+        <footer class="footer">
+            <div class="multiPhased"></div>
+            <p class="textMultiPhased text-center">
+                &copy; America Rocks!!!
+            </p>
+        </footer>
+
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+        <body>
+
+        </body>
+
+    </html>
